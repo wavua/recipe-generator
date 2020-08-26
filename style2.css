@@ -1,0 +1,188 @@
+body{
+	background: #E5E5E5;
+}
+nav{
+position: absolute;
+width: 1650px;
+height: 122px;
+left: 0px;
+top: 0px;
+
+background: #EC434D;
+
+}
+.navbar-brand{
+  position: absolute;
+width: 100px;
+height: 23px;
+left: 100px;
+top: 38px;
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+
+color: #FFFFFF;
+}
+.navbar-brand span{
+  position: absolute;
+width: 90px;
+height: 30px;
+left: 50px;
+top: 5px;
+background: white;
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+
+color: #EC434D;
+}
+.nav-link{
+  font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 10px;
+text-decoration: none;
+color:  #D8D8D8;
+padding: 0px;
+}
+.nav-link:hover{
+  color:#ffffff; 
+}
+.nav-item{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.navbar-collapse ul{
+	margin-left: 505px;
+}
+
+.fa-question{
+position: absolute;
+left: 92.12%;
+right: 6.06%;
+top: 10.42%;
+bottom: 93.65%;
+
+}
+.fa-cog{
+	position: absolute;
+left: 87.88%;
+right: 10.3%;
+top: 10.42%;
+bottom: 93.65%;
+
+}
+.section-2{
+position: absolute;
+width: 1650px;
+height: 69px;
+left: 0px;
+;
+padding-top: 17px;
+
+background: #FFFFFF;
+
+text-align: center;
+}
+.section-2 a{
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+color: rgba(0, 0, 0, 0.5);
+text-decoration: none;
+padding: 18px;
+
+
+}
+.section-2 a:hover{
+	color:#EC434D;
+	text-decoration: underline;
+}
+
+.col-sm-3{
+
+width: 318px;
+height: 237px;
+}
+
+.col-sm-3 h5{
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #EC434D
+}
+.col-sm-3 p{
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+
+color: #3A3A3A
+}
+@media screen and (max-width:600px){
+nav{
+position: absolute;
+width: 570px;
+height: 122px;
+left: 0px;
+top: 0px;
+}
+
+.nav-item{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.navbar-collapse ul{
+	margin-left: 50px;
+}
+.navbar-brand{
+ font-size: 10px;
+top: 5px;
+left: 5px;
+}
+.navbar-brand span{
+	font-size: 15px;
+	width:70px;
+	left: 52px;
+}
+.nav-item a{
+font-size: 20px;
+line-height: 10px;
+}
+.section-2{
+position: absolute;
+width: 580px;
+height: 50px;
+}
+.section-2 a{
+font-size: 14px;
+line-height: 20px;
+padding: 13px;
+}
+.col-sm-3 h5{
+font-size: 15px;
+line-height: 20px;
+
+}
+.col-sm-3 p{
+font-size: 15px;
+line-height: 20px;
+}
+}
